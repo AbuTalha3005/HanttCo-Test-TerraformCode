@@ -25,5 +25,6 @@ This Terraform-based infrastructure sets up a **Windows EC2 instance within a pr
 ![image](https://github.com/user-attachments/assets/1ce3308f-d458-4827-b1c3-a0f1bf8f4e62)
 
 ## Architecture
+![Untitled Diagram drawio](https://github.com/user-attachments/assets/d51e160c-3264-4c2a-8cc8-223a195a1a21)
 
 ## Project Successfully Implemented Screenshot
