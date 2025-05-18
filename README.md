@@ -1,4 +1,4 @@
-# HanttCo Windows EC2 Terraform Deployment
+# HanttCo AWS Windows EC2 Terraform Deployment
 
 ## Purpose  
 This project automates the deployment of a **Windows EC2 instance in AWS** using **Terraform**, ensuring security, scalability, and modularity. The setup includes private networking, IAM roles for access control, and best practices for AWS resource management.
