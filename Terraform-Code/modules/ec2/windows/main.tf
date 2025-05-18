@@ -60,11 +60,11 @@ resource "aws_security_group" "windows_ec2_sg" {
 resource "aws_instance" "windows_ec2_instance" {
   ami                         = var.win_ami_id
   instance_type               = var.instance_type
-  subnet_id                   = var.private_subnet_id   # <-- Use private subnet
+  subnet_id                   = var.private_subnet_id  
   vpc_security_group_ids      = [aws_security_group.windows_ec2_sg.id]
   key_name                    = var.ec2_key_name
   iam_instance_profile        = aws_iam_instance_profile.windows_instance_profile.name
-  associate_public_ip_address = false                   # <-- No public IP on the instance
+  associate_public_ip_address = false                  
 
   tags = {
     Name = "${var.project_name}-Windows-EC2"
