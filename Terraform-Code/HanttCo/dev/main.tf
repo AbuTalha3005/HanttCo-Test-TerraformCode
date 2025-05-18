@@ -16,11 +16,11 @@ module "ec2_windows" {
   source             = "../../modules/ec2/windows"
   project_name       = var.project_name
   vpc_id             = module.vpc.vpc_id
-  private_subnet_id  = module.vpc.private_subnet_id  # Use the private subnet output from VPC module
+  private_subnet_id  = module.vpc.private_subnet_id 
   win_ami_id         = var.win_ami_id
   instance_type      = var.windows_instance_type
   ec2_key_name       = var.ec2_key_name
-  depends_on_vpc     = module.vpc.vpc_id             # Dummy dependency variable
+  depends_on_vpc     = module.vpc.vpc_id            
 }
 
 module "nlb" {
