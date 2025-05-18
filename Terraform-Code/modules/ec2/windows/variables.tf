@@ -14,7 +14,7 @@ variable "private_subnet_id" {
 }
 
 variable "win_ami_id" {
-  description = "AMI ID for the Windows instance (produced by Packer)"
+  description = "AMI ID for the Windows instance"
   type        = string
 }
 
@@ -29,7 +29,6 @@ variable "ec2_key_name" {
   type        = string
 }
 
-# This dummy variable is used to force a dependency on the VPC module.
 variable "depends_on_vpc" {
   description = "Dummy variable to force dependency on VPC module"
   type        = string
