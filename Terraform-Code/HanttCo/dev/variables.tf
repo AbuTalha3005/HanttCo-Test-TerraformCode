@@ -1,7 +1,7 @@
 variable "aws_profile" {
   description = "AWS CLI profile to use for deployment"
   type        = string
-  default     = "default"  # Update this if your default profile is different.
+  default     = "default"  
 }
 
 variable "project_name" {
@@ -30,7 +30,7 @@ variable "ec2_key_name" {
 }
 
 variable "win_ami_id" {
-  description = "AMI ID for the Windows instance (from Packer)"
+  description = "AMI ID for the Windows instance "
   type        = string
 }
 
