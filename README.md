@@ -31,6 +31,10 @@ This Terraform-based infrastructure sets up a **Windows EC2 instance within a pr
 **No Error While Running Deployment TerraForm Plan**
 ![image](https://github.com/user-attachments/assets/06807034-34eb-4a4f-9e72-73b9be1589d8)
 
-**Deployed Successfully With Nop Error**
+**Deployed Successfully With Nop Errors**
 ![image](https://github.com/user-attachments/assets/26050173-8338-47a9-9fdb-cfe4c41d7592)
+
+**Destroyed Successfully with No Errors**
+![image](https://github.com/user-attachments/assets/f29c4f7e-0f52-4e69-a610-ca02d8d5c174)
+
 
